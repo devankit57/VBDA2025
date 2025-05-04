@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{FirstName}, Don’t Miss VBDA 2025!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f8;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+    }
+    .container {
+      max-width: 640px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+    .header {
+      background-color: #0a0a23;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 20px 20px;
+    }
+    .logo {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      font-size: 24px;
+      margin: 10px 0 0;
+      font-weight: 600;
+    }
+    .content {
+      padding: 30px 25px;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #333;
+    }
+    .content p {
+      margin-bottom: 20px;
+    }
+    .content strong {
+      color: #d4af37;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .cta-wrapper {
+      text-align: center;
+      margin: 30px 0 20px;
+    }
+    .cta-button {
+      background-color: #d4af37;
+      color: #000;
+      text-decoration: none;
+      padding: 14px 30px;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 6px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #c19d2a;
+    }
+    .footer {
+      background-color: #fafafa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+      border-top: 1px solid #eee;
+    }
+    a {
+      color: #0a0a23;
+      text-decoration: underline;
+    }
+    @media (max-width: 680px) {
+      .content, .header, .footer {
+        padding: 20px;
+      }
+      .cta-button {
+        width: 80%;
+        padding: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://static.wixstatic.com/media/ac71e9_3f066eb2122e468db1a15f2c08cb7a76~mv2.png/v1/crop/x_0,y_39,w_500,h_422/fill/w_236,h_202,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BEF-logo.png" alt="BEF Logo" class="logo" />
+      <h1>Don’t Miss VBDA 2025</h1>
+    </div>
+
+    <div class="content">
+      <p>Hi <strong>{FirstName}</strong>,</p>
+
+      <p>
+        I wanted to follow up on our invitation to the <strong>Viksit Bharat Dialogues & Awards (VBDA)</strong> happening on <strong>25th July 2025</strong> at Bharat Mandapam, New Delhi.
+      </p>
+
+      <p>
+        Your remarkable achievement — <strong>{Achievement}</strong> — positions you perfectly to join over <strong>500+ national leaders</strong> who are shaping India’s transformation into a <strong>$30 trillion economy by 2047</strong>.
+      </p>
+
+      <p>Here's what you gain by joining us:</p>
+      <ul>
+        <li>Exclusive networking with policymakers, ministers & CXOs</li>
+        <li>National spotlight with 5M+ media reach</li>
+        <li>A premium platform to represent <strong>{Organization}</strong>'s vision</li>
+      </ul>
+
+      <p>
+        I'd love to schedule a brief call to explore your participation as a speaker, awardee, or featured guest.
+        You can contact me at <a href="mailto:contact@bharateconomicforum.org">contact@bharateconomicforum.org</a> or call <strong>+91 87440 89014</strong>.
+      </p>
+
+      <div class="cta-wrapper">
+        <a href="https://www.bharateconomicforum.org/viksit-bharat-dialogues" class="cta-button">Reserve Your Spot</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      Warm regards,<br />
+      <strong>Manish Patel</strong><br />
+      Founder & Chairman, Bharat Economic Forum (BEF)
+    </div>
+  </div>
+</body>
+</html>
